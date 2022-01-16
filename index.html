@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT 13</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/watch.css">
+</head>
+
+<body>
+
+
+    <header>
+        <a href="#" class="logo">AK</a>
+        <ul>
+            <li><a href="index.html">DIGITAL-WATCH</a></li>
+            <li><a href="countertodoapp.html">COUNTER-AND-TODO-APPS</a></li>
+            <li><a href="studentresult.html">STUDY-RESULT</a></li>
+        </ul>
+    </header>
+
+
+    <!-- FIRST DIGITAL WATCH ALL HTML TAG -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="watch">
+                        <div class="watch-body">
+                            <div class="clock-time">
+                                <span class="h"></span>
+                                <span class="m"></span>
+                                <span class="ampm"></span>
+                                <span class="s"></span>
+                                <p id="demo"></p>
+                                <div class="date">
+                                    <span class="days"></span>
+                                    <span class="months"></span>
+                                    <span class="years"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SECOND TABLE WATCH ALL HTML TAG -->
+                <div class="col-xl-4">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="watch2">
+                        <div class="watch-body2">
+                            <div class="clock-time2">
+                                <span class="h2"></span>
+                                <span class="m2"></span>
+                                <div class="sss">
+                                    <span class="ampm2"></span>
+                                    <span class="s2"></span>
+                                </div>
+                                <p id="demo2"></p>
+                                <div class="date2">
+                                    <span class="days2"></span>
+                                    <span class="months2"></span>
+                                    <span class="years2"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- THIRD DIGITAL WATCH ALL HTML TAG -->
+                <div class="col-xl-4">
+                    <div class="watch3">
+                        <div class="watch-body3">
+                            <div class="pic">
+                                <img src="./Css/img/beautiful-almighty-allah-name-in-vector-illustration-design-2E2F4BB.jpg"
+                                    alt="">
+                            </div>
+                            <div class="clock-time3">
+                                <span class="h3"></span>
+                                <span class="m3"></span>
+                                <span class="ampm3"></span>
+                                <span class="s3"></span>
+                                <p id="demo3"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+
+
+    <script src="./Js/watchfunction.js"></script>
+    <script src="./Js/watch.js"></script>
+</body>
+
+</html>

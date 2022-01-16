@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background: url(./img/_sNw0oZO6IQV_vLpSbxFnx44SN_obtJrNdbSk0_yFFk.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1#h1 {
+    color: white;
+}
+.student-information th{
+
+    border: 1px solid #ddd;
+    padding: 0 20px;
+}
+
+
+.student-information{
+    padding-left: 60px;
+}
+
+
+tbody#tbody1 tr td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    background: rgb(32, 91, 218);
+    color: white;
+}
+tbody#tbody2 tr td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    background: rgb(31, 74, 212);
+    color: white;
+}
+
+thead tr {
+    background: rgb(51, 161, 23);
+}
+
+tr th {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: -webkit-center;
+    /* text-align: center; */
+}
+
+#lodd{
+    font-size: 50px;
+}
+
+p.title {
+    padding-left: 20px !IMPORTANT;
+    width: 70%;
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 20px;
+    color: wheat;
+    background-color: seagreen;
+    border-radius: 10px;
+    left: 20px;
+    position: relative;
+}
+p.title1 {
+    background: rgb(17, 39, 240);
+    width: 70%;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    font-size: 20px;
+}
+
+tr th {
+    background: rgb(10, 145, 51);
+}
+
+
+h1.comming-soon {
+    color: #d2770b;
+}
+h1.b-counter {
+    color: #2f9615;
+}
+
+h1.loaderr {
+    color: #169e9e;
+}
+h1.todo-app {
+    color: #c924d4;
+}
+h2.SK {
+    color: #0b3ee6;
+}
+label {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT 13</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/studentresult.css">
+</head>
+
+<body>
+
+
+    <header>
+        <a href="#" class="logo">AK</a>
+        <ul>
+            <li><a href="index.html">DIGITAL-WATCH</a></li>
+            <li><a href="countertodoapp.html">COUNTER-AND-TODO-APPS</a></li>
+            <li><a href="studentresult.html">STUDY-RESULT</a></li>
+        </ul>
+    </header>
+
+<section class="banner">
+    <div class="second-container d-flex">
+
+        <div class="data-left w-100">
+
+            <div class="container-4">
+                <p class="title">STUDENT INFORMATION</p>
+    
+    
+                <div class="student-information">
+    
+                    <form action="#" id="form">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" oninvalid="alert('must fill out the form')" class="form-control w-50" placeholder="Name">
+                        <p id="pm"></p>
+                        <label for="fname">Your Father name:</label>
+                        <input type="text" id="fname" class="form-control w-50" placeholder="Father Name">
+                        <p id="pn"></p>
+                        <label for="mname">Your Mother name:</label>
+                        <input type="text" id="mname" class="form-control w-50" placeholder="Mother Name">
+                        <p id="po"></p>
+                        <label for="roll">Roll no:</label>
+                        <input type="number" id="roll" class="form-control w-50" placeholder="Roll No:">
+                        <label for="location">Your Location:</label>
+                        <input type="text" id="location" class="form-control w-50" placeholder="Location">
+                        <p id="pp"></p>
+    
+    
+                        <h2 class="SK">SUBJECT MARK</h2>
+    
+    
+                        <label for="bn">Bangla mark</label>
+                        <input type="number" id="bn" class="form-control w-50" placeholder="Bangla Mark:">
+                        <label for="en">English Mark</label>
+                        <input type="number" id="en" class="form-control w-50" placeholder="English Mark:">
+                        <label for="math">Math Mark</label>
+                        <input type="number" id="math" class="form-control w-50" placeholder="Math Mark:">
+                        <label for="s">Science Mark</label>
+                        <input type="number" id="sci" class="form-control w-50" placeholder="Science Mark:">
+                        <label for="ss">S-Sceince Mark</label>
+                        <input type="number" id="ss" class="form-control w-50" placeholder="S-Science Mark:">
+                        <label for="rel">Religion Mark</label>
+                        <input type="number" id="rel" class="form-control w-50" placeholder="Religion Mark:">
+    
+    
+                        <button class="btn btn-success btn-block w-50 mt-3">Submit</button>
+    
+                    </form>
+    
+                  
+    
+    
+                </div>
+               
+            </div>
+        </div>
+        <div class="data-right w-50">
+            <p class="title1">STUDENT RESULT</p>
+            <h1 id="lodd"></h1>
+            <table>
+               
+                <tbody id="tbody1">
+        
+                </tbody>
+                <br>
+                <br>
+               
+                <tbody id="tbody2">
+        
+                </tbody>
+        
+            </table>
+
+            <p id="result4"></p>
+        
+        
+        </div>
+
+    </div>
+</section>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+
+<script src="./Js/srfunction.js"></script>
+<script src="./Js/sresult.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'clock';
+    src: url(./font/DS-DIGIB.TTF);
+}
+
+@font-face {
+    font-family: 'clock1';
+    src: url(./font/Confidential\ Information.ttf);
+}
+
+@font-face {
+    font-family: 'digital';
+    src: url(./font/Orloj-Ea9eW.otf);
+}
+
+/* FIRST DIGITAL WATCH ALL TAG */
+.watch {
+    background: url(./img/Untitled_design-removebg-preview.png) no-repeat;
+    height: 450px;
+    width: 350px;
+    background-size: 250px 450px;
+    display: flex;
+
+    margin-top: 115px;
+    margin-left: 20px;
+    justify-content: center;
+    color: rgb(212, 3, 3);
+
+}
+
+.watch-body {}
+
+.h2tag {}
+
+.clock-time {
+    margin-top: 90px;
+    margin-right: 200px;
+}
+
+.h {
+    font-family: 'clock';
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.m {
+    font-family: 'clock';
+    font-size: 50px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.s {
+    font-size: 20px;
+    color: orange;
+    font-family: 'clock';
+}
+
+.ampm {
+    font-size: 20px;
+    color: rgb(36, 121, 25);
+    font-family: serif;
+    margin-left: 40px;
+}
+
+.date {
+    font-size: 15px;
+    color: royalblue;
+    margin-left: 60px;
+    font-family: 'clock';
+    margin-top: 118px;
+    text-align: center;
+}
+
+#demo {
+    margin-left: 50px;
+    font-family: 'clock1';
+    color: #ffffff;
+}
+
+.date {}
+
+.days {}
+
+.months {}
+
+.years {}
+
+
+/* SECOND TABLE WATCH ALL CSS */
+
+.watch2 {
+    background: url(./img/secondwatch-removebg-preview.png) no-repeat;
+    height: 500px;
+    width: 350px;
+    background-size: 360px 550px;
+    display: flex;
+}
+
+
+.watch-body2 {}
+
+.clock-time2 {
+
+    height: 500px;
+    width: 300px;
+    margin-top: 170PX;
+    color: RED;
+    margin-left: 180px;
+}
+
+
+.h2 {
+    font-size: 50px;
+    color: rgb(235, 212, 0);
+    font-family: clock;
+}
+
+.m2 {
+    font-size: 50px;
+    color: rgb(81, 255, 0);
+    font-family: clock;
+}
+
+.s2 {
+    font-family: clock;
+    color: #a55eea;
+    font-size: 25px;
+}
+
+.ampm2 {
+    font-size: 30px;
+    color: rgb(23, 26, 216);
+    font-family: serif;
+
+}
+
+.am {}
+
+#demo2 {
+    color: #009432;
+    font-size: 30px;
+    font-family: clock1;
+
+}
+
+.date2 {
+    font-size: 25px;
+    font-family: clock;
+}
+
+.days2 {
+    color: blue;
+}
+
+.months2 {
+    color: #FFC312;
+}
+
+.years2 {
+    color: #D980FA;
+}
+
+
+
+
+
+
+/* THIRD WATCH ALL CSS */
+.watch3 {
+    background: url(./img/3watchk.png) no-repeat;
+    height: 500px;
+    width: 350px;
+    background-size: 384px 384px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.watch-body3 {}
+
+.clock-time3 {
+    font-family: 'digital';
+    margin-left: 140px;
+    color: red;
+}
+
+.h3 {
+    font-size: 35px;
+    color: green;
+}
+
+.m3 {
+    font-size: 35px;
+    color: red;
+}
+
+.ampm3 {
+    color: #f1c40f;
+    font-size: 15px;
+}
+
+#demo3 {
+    color: blue;
+    font-size: 30px;
+    font-family: clock1;
+    margin-left: 25px;
+}
+
+.s3 {
+    color: papayawhip;
+    font-size: 10px;
+}
+
+.date3 {
+    margin-right: 100px;
+}
+
+.days3 {}
+
+.months3 {}
+
+.years3 {}
+
+.pic img {
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+    margin-left: 180px;
+    border-radius: 50%;
+}
